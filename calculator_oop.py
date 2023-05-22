@@ -9,6 +9,11 @@ class Calculator:
 
     def subtract(self):
         return self.num1 - self.num2
+
+    def multiply(self):
+        return self.num1 * self.num2
+
+
         
 
 # take user input for numbers and operation
@@ -22,4 +27,6 @@ calc = Calculator(num1, num2)
 if operation == '+':
     print(num1, "+", num2, "=", calc.add())
 if operation == '-':
-    print(num1, "-", num2, "=", calc.subtract())    
+    print(num1, "-", num2, "=", calc.subtract()) 
+if operation == '*':
+    print(num1, '*', num2, '=', calc.multiply())
