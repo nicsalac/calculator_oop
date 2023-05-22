@@ -16,22 +16,5 @@ class Calculator:
     def divide(self):
         return self.num1 / self.num2
 
+     
 
-        
-
-# take user input for numbers and operation
-num1 = float(input("Enter first number:"))
-operation = input("Enter operator [+, -, *, /]:")
-num2 = float(input("Enter second number:"))
-
-calc = Calculator(num1, num2)
-
-#perform any operations based on user input
-if operation == '+':
-    print(num1, "+", num2, "=", calc.add())
-if operation == '-':
-    print(num1, "-", num2, "=", calc.subtract()) 
-if operation == '*':
-    print(num1, '*', num2, '=', calc.multiply())
-if operation == '/':
-    print(num1, '/', num2, '=', calc.divide())
