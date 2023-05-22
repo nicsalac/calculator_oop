@@ -13,6 +13,9 @@ class Calculator:
     def multiply(self):
         return self.num1 * self.num2
 
+    def divide(self):
+        return self.num1 / self.num2
+
 
         
 
@@ -30,3 +33,5 @@ if operation == '-':
     print(num1, "-", num2, "=", calc.subtract()) 
 if operation == '*':
     print(num1, '*', num2, '=', calc.multiply())
+if operation == '/':
+    print(num1, '/', num2, '=', calc.divide())
