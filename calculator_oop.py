@@ -16,5 +16,12 @@ class Calculator:
     def divide(self):
         return self.num1 / self.num2
 
-     
-
+class NewCalculator(Calculator):
+    def __init__(self, num1, num2):
+        super().__init__(num1, num2)
+    
+    def square(self):
+        return self.num1 ** 2, self.num2 ** 2
+    
+    def cube(self):
+        return self.num1 ** 3, self.num2 **3
