@@ -20,5 +20,7 @@ elif operation == '/':
     print(num1, '/', num2, '=', calc.divide())
 elif operation == 'square' :
     print("square of" ,num1, "is", newcalc.square, "and the square of", num2, "is", newcalc.square())
+elif operation == 'cube':
+    print("cube of" ,num1, "is", newcalc.cube, "and the cube of", num2, "is", newcalc.cube())
 else:
     print("Invalid operator entered.")
